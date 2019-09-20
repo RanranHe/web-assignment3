@@ -37,3 +37,14 @@ h3 span {
     padding-bottom: 24px;
     border-bottom: 1px solid rgba(0, 0, 0, .44);
 }
+
+div section {
+    display: inline-block;
+    width: 31.5%;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+section + section {
+    margin-left: 2%;
+}
