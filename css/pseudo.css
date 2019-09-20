@@ -1,0 +1,39 @@
+@import "https://fonts.googleapis.com/css?family=Righteous";
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Righteous', serif;
+    margin-bottom: 0;
+    font-size:40px;
+}
+
+h1::first-letter {
+    text-transform: uppercase;
+}
+
+h1 + p {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+div h3 {
+    font-family: Arial, serif;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    margin-top: 40px;
+    margin-bottom: 25px;
+    height: 45px;
+}
+
+h3 span {
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, .44);
+}
