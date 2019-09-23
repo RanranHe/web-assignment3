@@ -1,8 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Righteous";
 
 body {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 11.9%;
+    margin-right: 12%;
 }
 
 p {
@@ -57,6 +57,7 @@ section > h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5%;
     color: rgba(0, 0, 0, 0.82);
+    font-size: 20px;
 }
 
 section > p, section > span {
@@ -68,6 +69,7 @@ section > p, section > span {
 }
 
 section > p {
+    line-height: 25px;
     height: 155px;
 }
 
@@ -80,4 +82,8 @@ section > span {
 
 i.fa {
     transform : scale(1.2);
+}
+
+section > p span {
+    color: #199c4d;
 }
