@@ -10,21 +10,25 @@ p {
     font-weight: lighter;
 }
 
+/* For the large topic */
 h1 {
     font-family: 'Righteous', serif;
     margin-bottom: 0;
     font-size:40px;
 }
 
+/* Large topic first letter uppercase */
 h1::first-letter {
     text-transform: uppercase;
 }
 
+/* For secondary topic */
 h1 + p {
     margin-top: 12px;
     font-size: 18px;
 }
 
+/* for "all topic" */
 div > h3 {
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 1px solid rgba(0, 0, 0, .125);
@@ -34,15 +38,18 @@ div > h3 {
     font-size: 20px;
 }
 
+/* For "all topic" */
 h3 span {
     padding-bottom: 24px;
     border-bottom: 1px solid rgba(0, 0, 0, .44);
 }
 
+/* First box of each row */
 div section.first {
     margin-left: 0;
 }
 
+/* Box with border */
 div section {
     float: left;
     display: inline-block;
@@ -53,6 +60,7 @@ div section {
     margin-left: 2%;
 }
 
+/* Box title */
 section > h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5%;
@@ -60,6 +68,7 @@ section > h3 {
     font-size: 20px;
 }
 
+/* set up the margins of content in box */
 section > p, section > span {
     bottom: 0;
     margin-left: 5%;
@@ -68,11 +77,13 @@ section > p, section > span {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* line distance */
 section > p {
     line-height: 25px;
     height: 155px;
 }
 
+/* the bottom line in box */
 section > span {
     font-size: 12px;
     display: inline-block;
@@ -80,10 +91,12 @@ section > span {
     margin-right: 7px;
 }
 
+/* Bookmark */
 i.fa {
     transform : scale(1.2);
 }
 
+/* change the color of some words in box content */
 section > p span {
     color: #199c4d;
 }
